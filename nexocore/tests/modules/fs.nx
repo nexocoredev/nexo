@@ -1,0 +1,12 @@
+def read(path):
+    return fs_read(path)
+def write(path, data):
+    return fs_write(path, data)
+def exists(path):
+    return fs_exists(path)
+def list(path):
+    return fs_list(path)
+export read
+export write
+export exists
+export list

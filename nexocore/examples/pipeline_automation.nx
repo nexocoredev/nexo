@@ -1,0 +1,6 @@
+import re
+re = import_module("re")
+def normalize(text):
+    return re["replace"]("\\s+", text, " ")
+out = proc_run("echo alpha   beta")
+out["out"] |> normalize |> print

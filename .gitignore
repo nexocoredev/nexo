@@ -1,0 +1,23 @@
+# Build / release artifacts
+_dist/
+_release_check/
+
+# Binaries / installers
+*.exe
+*.zip
+*.tar.gz
+setup_icon.ico
+
+# Temp / unknown files
+C
+
+# Rust
+target/
+nexocore/target/
+
+# OS
+.DS_Store
+
+# Install scripts (served from website)
+install.ps1
+install.sh

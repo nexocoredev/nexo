@@ -1,0 +1,9 @@
+def info(value):
+    return log_info(value)
+def warn(value):
+    return log_warn(value)
+def error(value):
+    return log_error(value)
+export info
+export warn
+export error

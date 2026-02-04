@@ -1,0 +1,7 @@
+import re
+re = import_module("re")
+csv = "name,age\nAna,30"
+parts = re["findall"]("[^,\n]+", csv)
+row = {parts[0]: parts[2], parts[1]: parts[3]}
+rows = [row]
+rows |> json_stringify |> print

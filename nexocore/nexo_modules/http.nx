@@ -1,0 +1,6 @@
+def get(url):
+    return http_get(url)
+def post(url, body, headers):
+    return http_post(url, body, headers)
+export get
+export post

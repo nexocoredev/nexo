@@ -1,0 +1,11 @@
+import re as r
+import path as p
+import fs
+fs["write"]("tests/tmp_glob_a.txt", "a")
+fs["write"]("tests/tmp_glob_b.txt", "b")
+print(r["match"]("a+", "aaab"))
+print(r["findall"]("[ab]", "abba"))
+print(r["replace"]("b", "abba", "x"))
+print(p["join"]("a", "b"))
+print(p["dirname"]("a/b/c.txt"))
+print(p["glob"]("tests/tmp_glob_*.txt"))

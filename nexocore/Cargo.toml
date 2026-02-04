@@ -1,0 +1,11 @@
+[package]
+name = "nexocore"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde_json = "1.0"
+libloading = "0.8"
+reqwest = { version = "0.12", features = ["blocking"] }
+regex = "1.10"
+glob = "0.3"

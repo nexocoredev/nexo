@@ -1,0 +1,7 @@
+name = arg_get("--name", "world")
+name = arg_get("--name", "world")
+verbose = arg_has("--verbose")
+if verbose:
+    print("hello " + name)
+else:
+    print(name)

@@ -1,0 +1,15 @@
+time = import_module("time")
+import fs
+import time
+dir = "."
+prev = fs["list"](dir)
+prev |> len |> print
+i = 0
+while i < 3:
+    time["sleep"](500)
+    cur = fs["list"](dir)
+    if len(cur) != len(prev):
+        print("change detected")
+        prev = cur
+    i = i + 1
+print("watch done")

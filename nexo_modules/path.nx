@@ -1,0 +1,12 @@
+def join(a, b):
+    return path_join(a, b)
+
+def dirname(p):
+    return path_dirname(p)
+
+def glob(pattern):
+    return glob(pattern)
+
+export join
+export dirname
+export glob

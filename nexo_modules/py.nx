@@ -1,0 +1,4 @@
+def run(script, input):
+    return py_run(script, input)
+
+export run

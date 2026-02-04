@@ -1,0 +1,1 @@
+print(json_stringify({"ok": true, "n": 3}))

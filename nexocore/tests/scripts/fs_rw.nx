@@ -1,0 +1,3 @@
+import fs
+fs["write"]("tests/tmp_fs.txt", "hola")
+print(fs["read"]("tests/tmp_fs.txt"))

@@ -1,0 +1,2 @@
+import fs
+print(fs["exists"]("."))

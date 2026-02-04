@@ -1,0 +1,3 @@
+import env
+print(env["get"]("NEOX_TEST_ENV"))
+print(len(env["args"]()))

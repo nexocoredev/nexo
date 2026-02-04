@@ -1,0 +1,12 @@
+def match(pattern, text):
+    return re_match(pattern, text)
+
+def findall(pattern, text):
+    return re_findall(pattern, text)
+
+def replace(pattern, text, repl):
+    return re_replace(pattern, text, repl)
+
+export match
+export findall
+export replace

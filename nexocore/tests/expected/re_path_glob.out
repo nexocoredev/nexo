@@ -1,0 +1,6 @@
+true
+[a, b, b, a]
+axxa
+a\b
+a/b
+[tests\tmp_glob_a.txt, tests\tmp_glob_b.txt]

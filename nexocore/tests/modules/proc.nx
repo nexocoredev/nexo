@@ -1,0 +1,3 @@
+def run(cmd):
+    return proc_run(cmd)
+export run

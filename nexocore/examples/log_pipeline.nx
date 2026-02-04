@@ -1,0 +1,4 @@
+import log
+import log
+data = "task start"
+data |> log["info"] |> print

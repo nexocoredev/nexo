@@ -1,0 +1,8 @@
+import log
+import re
+def extract_title(res):
+    titles = re["findall"]("<title>[^<]+</title>", res["body"])
+    if len(titles) == 0:
+        return "<no title>"
+    return re["replace"]("<[^>]+>", titles[0], "")
+"https://example.com" |> http_get |> extract_title |> log["info"] |> print

@@ -1,0 +1,4 @@
+def add(a, b):
+    return a + b
+"x" |> len |> print
+5 |> add(2) |> print

@@ -1,0 +1,8 @@
+# Full line comment
+print("ok")  # inline comment
+
+if true:
+    # inside block
+    print("block")
+
+print("# not a comment")

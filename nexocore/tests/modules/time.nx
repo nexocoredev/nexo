@@ -1,0 +1,6 @@
+def sleep(ms):
+    return time_sleep(ms)
+def now():
+    return time_now()
+export sleep
+export now

@@ -1,0 +1,5 @@
+try:
+    obj = json_parse("x")
+    print(obj)
+catch e:
+    print(e)
